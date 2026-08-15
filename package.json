@@ -1,0 +1,10 @@
+{
+  "name": "vantage-terminal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "start": "npm install --prefix server && npm start --prefix server"
+  }
+}
